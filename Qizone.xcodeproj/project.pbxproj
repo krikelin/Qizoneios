@@ -14,7 +14,6 @@
 		506BA16917F231DB003BB31F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 506BA16817F231DB003BB31F /* main.m */; };
 		506BA16D17F231DB003BB31F /* QZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 506BA16C17F231DB003BB31F /* QZAppDelegate.m */; };
 		506BA17017F231DB003BB31F /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 506BA16E17F231DB003BB31F /* Main_iPhone.storyboard */; };
-		506BA17317F231DB003BB31F /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 506BA17117F231DB003BB31F /* Main_iPad.storyboard */; };
 		506BA17617F231DB003BB31F /* QZFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 506BA17517F231DB003BB31F /* QZFirstViewController.m */; };
 		506BA17917F231DB003BB31F /* QZSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 506BA17817F231DB003BB31F /* QZSecondViewController.m */; };
 		506BA17B17F231DB003BB31F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 506BA17A17F231DB003BB31F /* Images.xcassets */; };
@@ -23,6 +22,35 @@
 		506BA18417F231DB003BB31F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506BA16017F231DB003BB31F /* UIKit.framework */; };
 		506BA18C17F231DB003BB31F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 506BA18A17F231DB003BB31F /* InfoPlist.strings */; };
 		506BA18E17F231DC003BB31F /* QizoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 506BA18D17F231DB003BB31F /* QizoneTests.m */; };
+		506BA19917F2325D003BB31F /* QZInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 506BA19817F2325D003BB31F /* QZInterface.m */; };
+		506BA19A17F2325D003BB31F /* QZInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 506BA19817F2325D003BB31F /* QZInterface.m */; };
+		506BA19D17F232B2003BB31F /* QZRelease.m in Sources */ = {isa = PBXBuildFile; fileRef = 506BA19C17F232B2003BB31F /* QZRelease.m */; };
+		506BA19E17F232B2003BB31F /* QZRelease.m in Sources */ = {isa = PBXBuildFile; fileRef = 506BA19C17F232B2003BB31F /* QZRelease.m */; };
+		506BA1A117F232C2003BB31F /* QZResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 506BA1A017F232C2003BB31F /* QZResource.m */; };
+		506BA1A217F232C2003BB31F /* QZResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 506BA1A017F232C2003BB31F /* QZResource.m */; };
+		506BA1A517F23355003BB31F /* QZCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 506BA1A417F23355003BB31F /* QZCollection.m */; };
+		506BA1A617F23355003BB31F /* QZCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 506BA1A417F23355003BB31F /* QZCollection.m */; };
+		506BA1A917F23396003BB31F /* QZDummyService.m in Sources */ = {isa = PBXBuildFile; fileRef = 506BA1A817F23396003BB31F /* QZDummyService.m */; };
+		506BA1AA17F23396003BB31F /* QZDummyService.m in Sources */ = {isa = PBXBuildFile; fileRef = 506BA1A817F23396003BB31F /* QZDummyService.m */; };
+		509AABF717F7828400E9417A /* QZRESTService.m in Sources */ = {isa = PBXBuildFile; fileRef = 509AABF617F7828400E9417A /* QZRESTService.m */; };
+		509AABF817F7828400E9417A /* QZRESTService.m in Sources */ = {isa = PBXBuildFile; fileRef = 509AABF617F7828400E9417A /* QZRESTService.m */; };
+		509AABFB17F88F3700E9417A /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 509AABFA17F88F3700E9417A /* iCarousel.m */; };
+		509AABFC17F88F3800E9417A /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 509AABFA17F88F3700E9417A /* iCarousel.m */; };
+		509AABFE17F88F5B00E9417A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 509AABFD17F88F5B00E9417A /* QuartzCore.framework */; };
+		509AAC0517F8904200E9417A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 509AAC0317F8904200E9417A /* Main_iPad.storyboard */; };
+		509AAC0617F8904200E9417A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 509AAC0317F8904200E9417A /* Main_iPad.storyboard */; };
+		509AAC0917F8911400E9417A /* QZResourceCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 509AAC0817F8911400E9417A /* QZResourceCarousel.m */; };
+		509AAC0A17F8911400E9417A /* QZResourceCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 509AAC0817F8911400E9417A /* QZResourceCarousel.m */; };
+		509AAC1517F897D300E9417A /* QZCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 509AAC1417F897D300E9417A /* QZCategoryViewController.m */; };
+		509AAC1617F897D300E9417A /* QZCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 509AAC1417F897D300E9417A /* QZCategoryViewController.m */; };
+		50FF7DDF17F628E100E4B5BF /* QZReleaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FF7DDE17F628E100E4B5BF /* QZReleaseTableViewController.m */; };
+		50FF7DE017F628E100E4B5BF /* QZReleaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FF7DDE17F628E100E4B5BF /* QZReleaseTableViewController.m */; };
+		50FF7DE317F62A8A00E4B5BF /* QZRecentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FF7DE217F62A8A00E4B5BF /* QZRecentViewController.m */; };
+		50FF7DE417F62A8A00E4B5BF /* QZRecentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FF7DE217F62A8A00E4B5BF /* QZRecentViewController.m */; };
+		50FF7DEC17F62B4D00E4B5BF /* QZService.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FF7DEB17F62B4D00E4B5BF /* QZService.m */; };
+		50FF7DED17F62B4D00E4B5BF /* QZService.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FF7DEB17F62B4D00E4B5BF /* QZService.m */; };
+		50FF7DF017F62DC600E4B5BF /* QZRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FF7DEF17F62DC600E4B5BF /* QZRequest.m */; };
+		50FF7DF117F62DC600E4B5BF /* QZRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FF7DEF17F62DC600E4B5BF /* QZRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +75,6 @@
 		506BA16B17F231DB003BB31F /* QZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QZAppDelegate.h; sourceTree = "<group>"; };
 		506BA16C17F231DB003BB31F /* QZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QZAppDelegate.m; sourceTree = "<group>"; };
 		506BA16F17F231DB003BB31F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		506BA17217F231DB003BB31F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		506BA17417F231DB003BB31F /* QZFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QZFirstViewController.h; sourceTree = "<group>"; };
 		506BA17517F231DB003BB31F /* QZFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QZFirstViewController.m; sourceTree = "<group>"; };
 		506BA17717F231DB003BB31F /* QZSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QZSecondViewController.h; sourceTree = "<group>"; };
@@ -58,6 +85,35 @@
 		506BA18917F231DB003BB31F /* QizoneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QizoneTests-Info.plist"; sourceTree = "<group>"; };
 		506BA18B17F231DB003BB31F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		506BA18D17F231DB003BB31F /* QizoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QizoneTests.m; sourceTree = "<group>"; };
+		506BA19717F2325D003BB31F /* QZInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZInterface.h; sourceTree = "<group>"; };
+		506BA19817F2325D003BB31F /* QZInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZInterface.m; sourceTree = "<group>"; };
+		506BA19B17F232B2003BB31F /* QZRelease.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZRelease.h; sourceTree = "<group>"; };
+		506BA19C17F232B2003BB31F /* QZRelease.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZRelease.m; sourceTree = "<group>"; };
+		506BA19F17F232C2003BB31F /* QZResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZResource.h; sourceTree = "<group>"; };
+		506BA1A017F232C2003BB31F /* QZResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZResource.m; sourceTree = "<group>"; };
+		506BA1A317F23355003BB31F /* QZCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZCollection.h; sourceTree = "<group>"; };
+		506BA1A417F23355003BB31F /* QZCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZCollection.m; sourceTree = "<group>"; };
+		506BA1A717F23396003BB31F /* QZDummyService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZDummyService.h; sourceTree = "<group>"; };
+		506BA1A817F23396003BB31F /* QZDummyService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZDummyService.m; sourceTree = "<group>"; };
+		509AABF517F7828400E9417A /* QZRESTService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZRESTService.h; sourceTree = "<group>"; };
+		509AABF617F7828400E9417A /* QZRESTService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZRESTService.m; sourceTree = "<group>"; };
+		509AABF917F88F3700E9417A /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		509AABFA17F88F3700E9417A /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		509AABFD17F88F5B00E9417A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		509AAC0417F8904200E9417A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		509AAC0717F8911400E9417A /* QZResourceCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZResourceCarousel.h; sourceTree = "<group>"; };
+		509AAC0817F8911400E9417A /* QZResourceCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZResourceCarousel.m; sourceTree = "<group>"; };
+		509AAC1317F897D300E9417A /* QZCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QZCategoryViewController.h; path = ../QZCategoryViewController.h; sourceTree = "<group>"; };
+		509AAC1417F897D300E9417A /* QZCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QZCategoryViewController.m; path = ../QZCategoryViewController.m; sourceTree = "<group>"; };
+		50FF7DDD17F628E100E4B5BF /* QZReleaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZReleaseTableViewController.h; sourceTree = "<group>"; };
+		50FF7DDE17F628E100E4B5BF /* QZReleaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZReleaseTableViewController.m; sourceTree = "<group>"; };
+		50FF7DE117F62A8A00E4B5BF /* QZRecentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZRecentViewController.h; sourceTree = "<group>"; };
+		50FF7DE217F62A8A00E4B5BF /* QZRecentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZRecentViewController.m; sourceTree = "<group>"; };
+		50FF7DE917F62AFA00E4B5BF /* QZDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QZDelegate.h; path = ../QZDelegate.h; sourceTree = "<group>"; };
+		50FF7DEA17F62B4D00E4B5BF /* QZService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QZService.h; path = ../QZService.h; sourceTree = "<group>"; };
+		50FF7DEB17F62B4D00E4B5BF /* QZService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QZService.m; path = ../QZService.m; sourceTree = "<group>"; };
+		50FF7DEE17F62DC600E4B5BF /* QZRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZRequest.h; sourceTree = "<group>"; };
+		50FF7DEF17F62DC600E4B5BF /* QZRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZRequest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				509AABFE17F88F5B00E9417A /* QuartzCore.framework in Frameworks */,
 				506BA15F17F231DB003BB31F /* CoreGraphics.framework in Frameworks */,
 				506BA16117F231DB003BB31F /* UIKit.framework in Frameworks */,
 				506BA15D17F231DB003BB31F /* Foundation.framework in Frameworks */,
@@ -106,6 +163,7 @@
 		506BA15B17F231DB003BB31F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				509AABFD17F88F5B00E9417A /* QuartzCore.framework */,
 				506BA15C17F231DB003BB31F /* Foundation.framework */,
 				506BA15E17F231DB003BB31F /* CoreGraphics.framework */,
 				506BA16017F231DB003BB31F /* UIKit.framework */,
@@ -117,16 +175,43 @@
 		506BA16217F231DB003BB31F /* Qizone */ = {
 			isa = PBXGroup;
 			children = (
+				50FF7DEA17F62B4D00E4B5BF /* QZService.h */,
+				50FF7DEB17F62B4D00E4B5BF /* QZService.m */,
+				509AAC1317F897D300E9417A /* QZCategoryViewController.h */,
+				509AAC1417F897D300E9417A /* QZCategoryViewController.m */,
 				506BA16B17F231DB003BB31F /* QZAppDelegate.h */,
 				506BA16C17F231DB003BB31F /* QZAppDelegate.m */,
+				509AABF917F88F3700E9417A /* iCarousel.h */,
+				509AABFA17F88F3700E9417A /* iCarousel.m */,
 				506BA16E17F231DB003BB31F /* Main_iPhone.storyboard */,
-				506BA17117F231DB003BB31F /* Main_iPad.storyboard */,
+				509AAC0317F8904200E9417A /* Main_iPad.storyboard */,
+				509AAC0717F8911400E9417A /* QZResourceCarousel.h */,
+				509AAC0817F8911400E9417A /* QZResourceCarousel.m */,
+				50FF7DE917F62AFA00E4B5BF /* QZDelegate.h */,
+				50FF7DDD17F628E100E4B5BF /* QZReleaseTableViewController.h */,
+				50FF7DE117F62A8A00E4B5BF /* QZRecentViewController.h */,
+				50FF7DE217F62A8A00E4B5BF /* QZRecentViewController.m */,
+				50FF7DDE17F628E100E4B5BF /* QZReleaseTableViewController.m */,
 				506BA17417F231DB003BB31F /* QZFirstViewController.h */,
 				506BA17517F231DB003BB31F /* QZFirstViewController.m */,
 				506BA17717F231DB003BB31F /* QZSecondViewController.h */,
 				506BA17817F231DB003BB31F /* QZSecondViewController.m */,
 				506BA17A17F231DB003BB31F /* Images.xcassets */,
 				506BA16317F231DB003BB31F /* Supporting Files */,
+				506BA19717F2325D003BB31F /* QZInterface.h */,
+				506BA1A717F23396003BB31F /* QZDummyService.h */,
+				506BA1A817F23396003BB31F /* QZDummyService.m */,
+				506BA19817F2325D003BB31F /* QZInterface.m */,
+				506BA1A317F23355003BB31F /* QZCollection.h */,
+				506BA1A417F23355003BB31F /* QZCollection.m */,
+				506BA19B17F232B2003BB31F /* QZRelease.h */,
+				506BA19C17F232B2003BB31F /* QZRelease.m */,
+				506BA19F17F232C2003BB31F /* QZResource.h */,
+				506BA1A017F232C2003BB31F /* QZResource.m */,
+				50FF7DEE17F62DC600E4B5BF /* QZRequest.h */,
+				50FF7DEF17F62DC600E4B5BF /* QZRequest.m */,
+				509AABF517F7828400E9417A /* QZRESTService.h */,
+				509AABF617F7828400E9417A /* QZRESTService.m */,
 			);
 			path = Qizone;
 			sourceTree = "<group>";
@@ -237,8 +322,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				506BA17317F231DB003BB31F /* Main_iPad.storyboard in Resources */,
 				506BA17B17F231DB003BB31F /* Images.xcassets in Resources */,
+				509AAC0517F8904200E9417A /* Main_iPad.storyboard in Resources */,
 				506BA17017F231DB003BB31F /* Main_iPhone.storyboard in Resources */,
 				506BA16717F231DB003BB31F /* InfoPlist.strings in Resources */,
 			);
@@ -249,6 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				506BA18C17F231DB003BB31F /* InfoPlist.strings in Resources */,
+				509AAC0617F8904200E9417A /* Main_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +345,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				506BA1A517F23355003BB31F /* QZCollection.m in Sources */,
+				506BA19D17F232B2003BB31F /* QZRelease.m in Sources */,
+				509AABF717F7828400E9417A /* QZRESTService.m in Sources */,
+				506BA1A117F232C2003BB31F /* QZResource.m in Sources */,
+				509AAC0917F8911400E9417A /* QZResourceCarousel.m in Sources */,
 				506BA16917F231DB003BB31F /* main.m in Sources */,
 				506BA17917F231DB003BB31F /* QZSecondViewController.m in Sources */,
+				509AABFB17F88F3700E9417A /* iCarousel.m in Sources */,
+				506BA19917F2325D003BB31F /* QZInterface.m in Sources */,
+				509AAC1517F897D300E9417A /* QZCategoryViewController.m in Sources */,
+				50FF7DEC17F62B4D00E4B5BF /* QZService.m in Sources */,
+				50FF7DDF17F628E100E4B5BF /* QZReleaseTableViewController.m in Sources */,
+				50FF7DF017F62DC600E4B5BF /* QZRequest.m in Sources */,
 				506BA17617F231DB003BB31F /* QZFirstViewController.m in Sources */,
+				506BA1A917F23396003BB31F /* QZDummyService.m in Sources */,
+				50FF7DE317F62A8A00E4B5BF /* QZRecentViewController.m in Sources */,
 				506BA16D17F231DB003BB31F /* QZAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +369,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				506BA1A617F23355003BB31F /* QZCollection.m in Sources */,
+				506BA1AA17F23396003BB31F /* QZDummyService.m in Sources */,
+				506BA19E17F232B2003BB31F /* QZRelease.m in Sources */,
+				509AAC1617F897D300E9417A /* QZCategoryViewController.m in Sources */,
+				50FF7DED17F62B4D00E4B5BF /* QZService.m in Sources */,
+				506BA19A17F2325D003BB31F /* QZInterface.m in Sources */,
+				50FF7DE017F628E100E4B5BF /* QZReleaseTableViewController.m in Sources */,
+				509AAC0A17F8911400E9417A /* QZResourceCarousel.m in Sources */,
+				509AABF817F7828400E9417A /* QZRESTService.m in Sources */,
+				506BA1A217F232C2003BB31F /* QZResource.m in Sources */,
+				50FF7DE417F62A8A00E4B5BF /* QZRecentViewController.m in Sources */,
+				509AABFC17F88F3800E9417A /* iCarousel.m in Sources */,
+				50FF7DF117F62DC600E4B5BF /* QZRequest.m in Sources */,
 				506BA18E17F231DC003BB31F /* QizoneTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,20 +413,20 @@
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
-		506BA17117F231DB003BB31F /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				506BA17217F231DB003BB31F /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 		506BA18A17F231DB003BB31F /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				506BA18B17F231DB003BB31F /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		509AAC0317F8904200E9417A /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				509AAC0417F8904200E9417A /* Base */,
+			);
+			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -481,6 +593,7 @@
 				506BA19317F231DC003BB31F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		506BA19417F231DC003BB31F /* Build configuration list for PBXNativeTarget "QizoneTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +602,7 @@
 				506BA19617F231DC003BB31F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
